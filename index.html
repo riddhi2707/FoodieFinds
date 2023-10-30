@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content ="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+</head>
+<body>
+    <div id="page" class="site">
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="left">
+                        <div class="logo"><a href="">FoodieFinds</a></div>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#menu">Menu</a></li>
+                                <li><a href="#masterpiece">Masterpiece</a></li>
+                                <li><a href="#contact">Contact</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="icons">
+                            <a href="#" class="s-trigger">
+                                <i class="ri-search-line"></i>
+                                <i class="ri-close-line"></i>
+                            </a>
+                            <a href="#" class="icart">
+                                <i class="ri-shopping-cart-line"></i>
+                                <span class="number">0</span>
+                            </a>
+                            <a href="#" class="m-trigger mobile-only">
+                                <i class="ri-menu-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <form action="" class="search">
+                <div class="container">
+                    <input type="search" placeholder="search to eat...">
+                </div>
+            </form>
+        </header>
+
+        <main>
+
+            <!-- FRONT PAGE--navbar, menu, slider -->
+            <div class="hero" id="home">
+                <div class="container">
+                    <h1>Don't wait to feel hungry</h1>
+                    <span class="text">EXPERIENCE THE MAGIC OF INDIA'S DIVERSE FOOD CULTURE</span>
+                    <div class="slider">
+                        <div class="thumb-big swiper">
+                            <div class="wrapper swiper-wrapper">
+                                <div class="item swiper-slide">
+                                    <div class="main">
+                                        <div class="tags link-slide">
+                                            <span>Breakfast</span>
+                                            <div class="price">$5.00</div>
+                                            <a href="#">Order now!</a>
+                                        </div>
+                                        <div class="image"><img src="slider\chaat.png"></div>
+                                    </div>
+                                </div>
+                                <div class="item swiper-slide">
+                                    <div class="main">
+                                        <div class="tags link-slide">
+                                            <span>Lunch</span>
+                                            <div class="price">$6.00</div>
+                                            <a href="#">Order now!</a>
+                                        </div>
+                                        <div class="image"><img src="slider\pav.png" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="item swiper-slide">
+                                    <div class="main">
+                                        <div class="tags link-slide">
+                                            <span>Dinner</span>
+                                            <div class="price">$9.00</div>
+                                            <a href="#">Order now!</a>
+                                        </div>
+                                        <div class="image"><img src="slider\biryani.png" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div thumbSlider="" class="thumb-nav swiper">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <div class="item">
+                                        <h4>Breakfast Food <br><span>Chat Fusion</span></h4>
+                                        <div class="thumbnail">
+                                            <img src="slider\chaat.png" alt="">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="swiper-slide">
+                                    <div class="item">
+                                        <h4>Lunch Food <br><span>Pav Bhaji</span></h4>
+                                        <div class="thumbnail">
+                                            <img src="slider\pav.png" alt="">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="swiper-slide">
+                                    <div class="item">
+                                        <h4>Dinner Food <br><span>Veg Biryani</span></h4>
+                                        <div class="thumbnail">
+                                            <img src="slider\biryani.png" alt="">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-primary"></div>
+            </div>
+
+            <!-- Categories -->
+            <div class="categories" id="menu">
+                <div c lass="container">
+                    <div class="head-brief">
+                        <h3>Discover the Aromas, Tastes, and Traditions of India's Kitchen</h3>
+                        <p>From the bustling streets of Mumbai to the royal kitchens of Hyderabad , from the spicy delights of Delhi to the aromatic South Indian Sizzlers, we've got it all covered. Join us on this culinary journey as we uncover the secrets of Indian cooking, one spice, one dish, and one story at a time.</p>
+                    </div>
+                    <div class="cat-item">
+                        <ul>
+                            <li>
+                                <div class="icon covering">
+                                    <img src="category\cat1.jpg" alt="">
+                                </div>
+                                <h3>The South Indian Delight</h3>
+                                <div class="qty">
+                                    <span>items</span>
+                                    <strong>9</strong>
+                                </div>
+                                <a href="#vegetable" class="link"></a>
+                            </li>
+                            <li>
+                                <div class="icon covering">
+                                    <img src="category\cat2.jpg" alt="">
+                                </div>
+                                <h3>Mumbai Masala Wheels</h3>
+                                <div class="qty">
+                                    <span>items</span>
+                                    <strong>7</strong>
+                                </div>
+                                <a href="#sea" class="link"></a>
+                            </li>
+                            <li>
+                                <div class="icon covering">
+                                    <img src="category\cat3.jpg" alt="">
+                                </div>
+                                <h3>Hyderabadi Biryani Bliss</h3>
+                                <div class="qty">
+                                    <span>items</span>
+                                    <strong>15</strong>
+                                </div>
+                                <a href="#nuts" class="link"></a>
+                            </li>
+                            <li>
+                                <div class="icon covering">
+                                    <img src="category\cat4.jpg" alt="">
+                                </div>
+                                <h3>Delhi Delight</h3>
+                                <div class="qty">
+                                    <span>items</span>
+                                    <strong>10</strong>
+                                </div>
+                                <a href="#herbs" class="link"></a>
+                            </li>
+                            <li>
+                                <div class="icon covering">
+                                    <img src="category\cat5.jpg" alt="">
+                                </div>
+                                <h3>Refreshing Coolers</h3>
+                                <div class="qty">
+                                    <span>items</span>
+                                    <strong>10</strong>
+                                </div>
+                                <a href="#baked" class="link"></a>
+                            </li>
+                            <li>
+                                <div class="icon covering">
+                                    <img src="category\cat6.jpeg" alt="">
+                                </div>
+                                <h3>New Arrivals</h3>
+                                <div class="qty">
+                                    <span>items</span>
+                                    <strong>25</strong>
+                                </div>
+                                <a href="#garnish" class="link"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-primary"></div>
+            </div>
+
+            <!--  Tabbed product-->
+            <div class="tabbed has-bg">
+                <div class="container">
+                    <div class="head-brief">
+                        <h3>Customer's Favourite</h3>
+                        <p>Indulge in the exquisite flavors of our best-selling dishes, meticulously crafted to tantalize your taste buds</p>
+                    </div>
+                    <nav class="tnav link-slide swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide"><a href="#0">The South Indian Delight</a></li>
+                            <li class="swiper-slide"><a href="#0">Mumbai Masala Wheels</a></li>
+                            <li class="swiper-slide"><a href="#0">Hyderabadi Biryani Bliss</a></li>
+                            <li class="swiper-slide"><a href="#0">Delhi Delight</a></li>
+                            <li class="swiper-slide"><a href="#0">Refreshing Coolers</a></li>
+                            <li class="swiper-slide"><a href="#0">New Arrivals</a></li>
+                        </ul>
+                    </nav>
+                    <div class="tabbed-item swiper">
+                        <div class="products swiper-wrapper">
+                            <!-- South Indian -->
+                            <div class="item swiper-slide" id="baked">
+                                <ul>
+                                    <li>
+                                        <div class="thumbnail covering">
+                                            <a href="#">
+                                                <img src="products\dosa1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="meta">
+                                            <div class="caterate">
+                                                <span class="cat"><a href="#">Dosa</a></span>
+                                                <span class="rating">
+                                                    <i class="ri-star-fill"></i>
+                                                    <span>4.9</span>
+                                                </span>
+                                            </div>
+                                            <h2><a href="#">Masala Dosa</a></h2>
+                                            <div class="price">
+                                                <strong class="current">$6.00</strong>
+                                            </div>
+                                            <div class="buttons">
+                                                <button>Add to cart</button>
+                                                <a href="#" class="like">
+                                                    <i class="ri-heart-line"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="thumbnail covering">
+                                            <a href="#">
+                                                <img src="products\dosa2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="meta">
+                                            <div class="caterate">
+                                                <span class="cat"><a href="#">Dosa</a></span>
+                                                <span class="rating">
+                                                    <i class="ri-star-fill"></i>
+                                                    <span>4.4</span>
+                                                </span>
+                                            </div>
+                                            <h2><a href="#">Rava Dosa</a></h2>
+                                            <div class="price">
+                                                <strong class="current">$7.00</strong>
+                                            </div>
+                                            <div class="buttons">
+                                                <button>Add to cart</button>
+                                                <a href="#" class="like">
+                                                    <i class="ri-heart-line"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- mumbai masala wheels -->
+                            <div class="item swiper-slide" id="garnish">
+                                <ul>
+                                    <li>
+                                        <div class="thumbnail covering">
+                                            <a href="#">
+                                                <img src="products\mumbai1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="meta">
+                                            <div class="caterate">
+                                                <span class="cat"><a href="#">Mumbai Magic</a></span>
+                                                <span class="rating">
+                                                    <i class="ri-star-fill"></i>
+                                                    <span>4.9</span>
+                                                </span>
+                                            </div>
+                                            <h2><a href="#">Vada pav</a></h2>
+                                            <div class="price">
+                                                <strong class="current">$4.00</strong>
+                                            </div>
+                                            <div class="buttons">
+                                                <button>Add to cart</button>
+                                                <a href="#" class="like">
+                                                    <i class="ri-heart-line"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="thumbnail covering">
+                                            <a href="#">
+                                                <img src="products\mumbai2.jpeg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="meta">
+                                            <div class="caterate">
+                                                <span class="cat"><a href="#">Mumbai Magic</a></span>
+                                                <span class="rating">
+                                                    <i class="ri-star-fill"></i>
+                                                    <span>4.7</span>
+                                                </span>
+                                            </div>
+                                            <h2><a href="#">Pav Bhaji</a></h2>
+                                            <div class="price">
+                                                <strong class="current">$6.00</strong>
+                                            </div>
+                                            <div class="buttons">
+                                                <button>Add to cart</button>
+                                                <a href="#" class="like">
+                                                    <i class="ri-heart-line"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- hyderabadi biryaani -->
+                            <div class="item swiper-slide" id="herbs">
+                                <ul>
+                                    <li>
+                                        <div class="thumbnail covering">
+                                            <a href="#">
+                                                <img src="products\biryani.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="meta">
+                                            <div class="caterate">
+                                                <span class="cat"><a href="#">Biryani</a></span>
+                                                <span class="rating">
+                                                    <i class="ri-star-fill"></i>
+                                                    <span>4.9</span>
+                                                </span>
+                                            </div>
+                                            <h2><a href="#">Vegetable Biryani</a></h2>
+                                            <div class="price">
+                                                <strong class="current">$9.00</strong>
+                                            </div>
+                                            <div class="buttons">
+                                                <button>Add to cart</button>
+                                                <a href="#" class="like">
+                                                    <i class="ri-heart-line"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Delhi Delight -->
+                            <div class="item swiper-slide" id="nuts">
+                                <ul>
+                                    <li>
+                                        <div class="thumbnail covering">
+                                            <a href="#">
+                                                <img src="products\chhole.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="meta">
+                                            <div class="caterate">
+                                                <span class="cat"><a href="#">Delhi Magic</a></span>
+                                                <span class="rating">
+                                                    <i class="ri-star-fill"></i>
+                                                    <span>4.8</span>
+                                                </span>
+                                            </div>
+                                            <h2><a href="#">Chole Bhature</a></h2>
+                                            <div class="price">
+                                                <strong class="current">$7.00</strong>
+                                            </div>
+                                            <div class="buttons">
+                                                <button>Add to cart</button>
+                                                <a href="#" class="like">
+                                                    <i class="ri-heart-line"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="thumbnail covering">
+                                            <a href="#">
+                                                <img src="products\samosa.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="meta">
+                                            <div class="caterate">
+                                                <span class="cat"><a href="#">Delhi Magic</a></span>
+                                                <span class="rating">
+                                                    <i class="ri-star-fill"></i>
+                                                    <span>4.8</span>
+                                                </span>
+                                            </div>
+                                            <h2><a href="#">Samosa</a></h2>
+                                            <div class="price">
+                                                <strong class="current">$5.00</strong>
+                                            </div>
+                                            <div class="buttons">
+                                                <button>Add to cart</button>
+                                                <a href="#" class="like">
+                                                    <i class="ri-heart-line"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Refreshing Coolers -->
+                            <div class="item swiper-slide" id="sea">
+                                <ul>
+                                    <li>
+                                        <div class="thumbnail covering">
+                                            <a href="#">
+                                                <img src="products\mango.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="meta">
+                                            <div class="caterate">
+                                                <span class="cat"><a href="#">Coolers</a></span>
+                                                <span class="rating">
+                                                    <i class="ri-star-fill"></i>
+                                                    <span>4.8</span>
+                                                </span>
+                                            </div>
+                                            <h2><a href="#">Mango Lassi</a></h2>
+                                            <div class="price">
+                                                <strong class="current">$5.00</strong>
+                                            </div>
+                                            <div class="buttons">
+                                                <button>Add to cart</button>
+                                                <a href="#" class="like">
+                                                    <i class="ri-heart-line"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="thumbnail covering">
+                                            <a href="#">
+                                                <img src="products\thandai.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="meta">
+                                            <div class="caterate">
+                                                <span class="cat"><a href="#">Coolers</a></span>
+                                                <span class="rating">
+                                                    <i class="ri-star-fill"></i>
+                                                    <span>4.6</span>
+                                                </span>
+                                            </div>
+                                            <h2><a href="#">Thandai</a></h2>
+                                            <div class="price">
+                                                <strong class="current">$6.00</strong>
+                                            </div>
+                                            <div class="buttons">
+                                                <button>Add to cart</button>
+                                                <a href="#" class="like">
+                                                    <i class="ri-heart-line"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- New arrivals -->
+                            <div class="item swiper-slide" id="vegetable">
+                                <ul>
+                                    <li>
+                                        <div class="thumbnail covering">
+                                            <a href="#">
+                                                <img src="products\chaat.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="meta">
+                                            <div class="caterate">
+                                                <span class="cat"><a href="#">Kuch Naya</a></span>
+                                                <span class="rating">
+                                                    <i class="ri-star-fill"></i>
+                                                    <span>4.3</span>
+                                                </span>
+                                            </div>
+                                            <h2><a href="#">Chat Fusions</a></h2>
+                                            <div class="price">
+                                                <strong class="current">$5.00</strong>
+                                            </div>
+                                            <div class="buttons">
+                                                <button>Add to cart</button>
+                                                <a href="#" class="like">
+                                                    <i class="ri-heart-line"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="thumbnail covering">
+                                            <a href="#">
+                                                <img src="products\pizza.jpeg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="meta">
+                                            <div class="caterate">
+                                                <span class="cat"><a href="#">Kuch Naya</a></span>
+                                                <span class="rating">
+                                                    <i class="ri-star-fill"></i>
+                                                    <span>4.5</span>
+                                                </span>
+                                            </div>
+                                            <h2><a href="#">Pizza</a></h2>
+                                            <div class="price">
+                                                <strong class="current">$8.00</strong>
+                                            </div>
+                                            <div class="buttons">
+                                                <button>Add to cart</button>
+                                                <a href="#" class="like">
+                                                    <i class="ri-heart-line"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Masterpiece -->
+            <div class="masterpiece has-bg" id="masterpiece">
+                <div class="bg-dark"></div>
+                <div class="container">
+                    <div class="head-brief">
+                        <h3>From kitchen to masterpiece</h3>
+                        <p>We bring the authentic tastes of India to your plate. With a team of passionate chefs and a commitment to using the finest ingredients, we take pride in presenting you with a culinary experience that reflects the heart of India.</p>
+                    </div>
+                    <div class="wrapper">
+                        <div class="item">
+                            <div class="image">
+                                <img src="slider\chaat.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h2>Snack Of The Day</h2>
+                                <p>Bring the joy of snacking to your table with our Crispy Corn Chaat. It's the perfect way to enjoy a crispy and spicy treat anytime</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="slider\thandai.png" id="thandai">
+                            </div>
+                            <div class="text">
+                                <h2>Drink Of The Day</h2>
+                                <p>Cool down with a glass of Thandai, a blend of tradition and innovation, where the old-world charm meets modern refreshment.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="slider\pizza.png" id="pizza">
+                            </div>
+                            <div class="text">
+                                <h2>Pizza Of The Day</h2>
+                                <p>Our handcrafted pizzas are a celebration of flavor, bringing people together, one slice at a time</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="slider\chhole.png">
+                            </div>
+                            <div class="text">
+                                <h2>Best Seller</h2>
+                                <p>Our Chole Bhature is a symphony of spices and textures, where the spicy chole and the crispy bhature create a perfect harmony on your plate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="container" id="contact">
+                <div class="wrapper">
+                    <div class="widget-footer">
+                        <h4>Resto</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Feature</a></li>
+                            <li><a href="#">Our Menu</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget-footer">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Support Center</a></li>
+                            <li><a href="#">Feedback</a></li>
+                            <li><a href="#">Q n A</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget-footer">
+                        <div class="logo"><a href="#">FoodieFinds</a></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe in id qui reiciendis, voluptas eaque ducimus quae architecto, incidunt voluptate a reprehenderit sit quos accusantium cupiditate veritatis, provident corporis doloribus.</p>
+                        <p>Jl. Pahlawan No.1, <br>Central Java - ID</p>
+                        <ul class="socials">
+                            <li><a href="#"><i class="ri-facebook-line"></i></a></li>
+                            <li><a href="#"><i class="ri-twitter-line"></i></a></li>
+                            <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="copyright">@2023 FoodieFinds All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+    <div class="overlay"></div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
